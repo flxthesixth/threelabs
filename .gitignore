@@ -1,0 +1,10 @@
+.env
+.env.*
+*.db
+*.db-shm
+*.db-wal
+*.log
+node_modules/
+__pycache__/
+backups/
+uploads/
