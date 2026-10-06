@@ -2,6 +2,8 @@
 
 A Discord-whitelisted tracker for community opportunities. Members submit links and track tasks. Administrators review submissions, record evidence, and decide what appears to members. A separate reminder script can post deadlines to a Discord channel one day before they occur.
 
+Live site: https://threelabs.flx.my.id/
+
 ## Run locally
 
 Requires Node.js 22+ for built-in SQLite. Set `SESSION_SECRET`, `ORIGIN`, `DISCORD_CLIENT_ID`, `DISCORD_CLIENT_SECRET`, and `ADMIN_DISCORD_IDS` in your environment. Set `DB_PATH` and `PORT` to override their defaults. Register `ORIGIN/callback` as a Discord OAuth redirect URI and serve the app behind HTTPS. Never commit environment values or the SQLite database.
